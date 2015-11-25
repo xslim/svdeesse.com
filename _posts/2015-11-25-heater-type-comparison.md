@@ -6,11 +6,12 @@ title: Heater type comparison
 ---
 
 
+
 For this boat I want to install a new heating option to be worm and cozy living on it in a nordic territories. Even Deesse is a 39ft boat, inside it is smaller then new 36ft boats. There will be 2 sleeping cabins, main cabin and a toilet/shower.
 
 ## A Table
 
-| Type                     | kW min | kW max | l/h min | l/h max | Ah min | Ah max | l/12h | Ah/12 | Fuel $ |
+| Type                     | kW min | max | l/h min | max | Ah min | max | l/12h | Ah/12 | Fuel $ |
 |--------------------------|--------|--------|---------|---------|--------|--------|-------|-------|--------|
 | Refleks 66MK             |        | 1.6    | 0.12    | 0.3     |        |        | 3.6   |       | 4.68   |
 | Webasto Air Top Evo 3900 | 1.5    | 3.5    | 0.19    | 0.45    | 1.3    | 3.3    | 3.84  | 27.6  | 4.992  |
