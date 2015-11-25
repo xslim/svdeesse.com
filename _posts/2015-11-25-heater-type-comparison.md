@@ -11,6 +11,8 @@ For this boat I want to install a new heating option to be worm and cozy living 
 
 ## A Table
 
+Here, fuel price is $1.3 / l
+
 | Type                     | kW        | l/h         | Ah       | l/12h | Ah/12h | Fuel $ |
 |--------------------------|-----------|-------------|-----------|-----|------|--------|
 | Refleks 66MK             | 1.6       | 0.12 - 0.30 | 0.0       | 3.6 | 0.0   |      4.68   |
