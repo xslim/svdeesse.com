@@ -21,6 +21,14 @@ highlighter: pygments
   # - jekyll-redirect-from #https://help.github.com/articles/redirects-on-github-pages
   # - jekyll-mentions
 
+
+defaults:
+  -
+    scope:
+      path: "_posts" # empty string for all files
+    values:
+      layout: "post"
+
 social:
   email: mailto:info@svdeesse.com
   rss: http://svdeesse.com/feed.xml
