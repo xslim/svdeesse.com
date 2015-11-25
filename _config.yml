@@ -28,6 +28,7 @@ social:
 
 prose:
   siteurl: "http://svdeesse.com"
+  media: "images"
   ignore:
     - /_layouts
     - /_includes
