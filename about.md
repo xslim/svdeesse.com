@@ -6,4 +6,4 @@ permalink: /about/
 
 ### Layout
 
-![Old Layout](images/layout_old.svg)
+![Old Layout](/images/layout_old.svg)
