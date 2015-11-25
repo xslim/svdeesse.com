@@ -34,25 +34,31 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 46px;
+    display: inline-block;
 
     ul {
       list-style: none;
+      margin: 0;
+      padding: 0;
     }
 
-    .page-link {
+    li {
+      float: left;
+
+      // Gaps between nav items, but not on the first one
+      &:not(:first-child) {
+        margin-left: 20px;
+      }
+    }
+
+    a {
         color: $text-color;
         line-height: $base-line-height;
 
         text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 600;
-
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
+        font-size: 12px;
+        font-weight: 500;
     }
 
     @include media-query($on-palm) {
