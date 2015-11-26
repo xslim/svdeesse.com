@@ -2,12 +2,17 @@
 layout: page
 title: Todo
 permalink: /todo/
+published: true
 ---
+
 
 ## First priority
 - New plumbing
 - New toilet and shower
 - Hydronic heating
+
+## Second
+- Galley rebuild
 
 ## Safety related
 - Fix rudder bearings
@@ -15,9 +20,13 @@ permalink: /todo/
 - Re-weld stantions
 - New standing rigging
 - New Engine
+- Watertight aft locker
+- Watertight forepeak / bulkhead
 
 ## Gear
 - VHF with DSC
+- Electric Windlass
+- 
 
 ## Nice to have
 - SSB with DSC
