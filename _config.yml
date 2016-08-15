@@ -11,9 +11,7 @@ google_analytics: UA-2087894-2
 # permalink: /posts/:title/
 relative_permalinks: false
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables", "autolink"]
+
 
 highlighter: pygments
 
