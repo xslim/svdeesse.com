@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Data</h1>
+
+  <h2>Current condition</h2>
+  <div id="chart_div"></div>
+  
+  <script>
+  //  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  
+var scr = document.createElement("script");
+scr.setAttribute("src",'https://www.google.com/jsapi?autoload={"modules":[{"name":"visualization","version":"1","packages":["corechart"],"callback":"drawChart"}]}');
+document.head.appendChild(scr);
+
+
+function loadJSON(path, success, error) {
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        if (success) success(JSON.parse(xhr.responseText));
+      } else {
+        if (error) error(xhr);
+      }
+    }
+  };
+  xhr.open("GET", path, true);
+  xhr.send();
+}
+
+function loadData() {
+	var channelId = '189404';
+	var feedOpts = '?days=2&average=60&round=0';
+	loadJSON('https://api.thingspeak.com/channels/' + channelId + '/feed.json' + feedOpts, function(data) {
+    drawChart(data);
+	});
+}
+
+
+function drawChartWithData(feedData) {
+
+  var data = new google.visualization.DataTable();
+  data.addColumn('datetime', 'Time');
+  data.addColumn('number', 'Outside');
+  data.addColumn('number', 'Inside');
+  data.addColumn('number', 'Humidity');
+  
+  for (var i = 0; i < feedData.feeds.length; i++) {
+  	var di = feedData.feeds[i];
+    var dt = new Date(Date.parse(di.created_at));
+    console.log(dt);
+		data.addRow([
+	    dt, 
+    	parseInt(di.field3),
+      parseInt(di.field1),
+      parseInt(di.field2)
+     ]);
+	}
+  
+  //console.log(data);
+  
+	var options = {
+  	series: {
+      // Gives each series an axis name that matches the Y-axis below.
+      0: {targetAxisIndex: 0, curveType: 'function'},
+      2: {targetAxisIndex: 1, curveType: 'function'}
+    },
+		hAxis: {
+      format: 'H',
+			title: 'Hours'
+    },
+    vAxes: {
+          // Adds titles to each axis.
+          0: {title: 'Temperature'},
+          1: {title: 'Humidity'}
+        },
+	};
+
+  //var chart = new google.charts.Line(document.getElementById('chart_div'));
+	var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+	chart.draw(data, options);
+}
+
+function drawChart() {
+    loadData();
+}
+  <script>
+
+</div>
