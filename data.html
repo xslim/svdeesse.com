@@ -1,16 +1,14 @@
 ---
-layout: default
+layout: page
+title: Data
+permalink: /data/
 ---
 
-<div class="home">
+<h2>Current condition</h2>
+<div id="chart_div"></div>
 
-  <h1 class="page-heading">Data</h1>
-
-  <h2>Current condition</h2>
-  <div id="chart_div"></div>
-  
-  <script>
-  //  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+//https://www.gstatic.com/charts/loader.js
   
 var scr = document.createElement("script");
 scr.setAttribute("src",'https://www.google.com/jsapi?autoload={"modules":[{"name":"visualization","version":"1","packages":["corechart"],"callback":"drawChart"}]}');
@@ -88,6 +86,5 @@ function drawChartWithData(feedData) {
 function drawChart() {
     loadData();
 }
-  <script>
-
-</div>
+				    
+<script>
