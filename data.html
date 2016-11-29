@@ -34,7 +34,7 @@ function loadData() {
   var channelId = '189404';
   var feedOpts = '?days=2&average=60&round=0';
   loadJSON('https://api.thingspeak.com/channels/' + channelId + '/feed.json' + feedOpts, function(data) {
-    drawChart(data);
+    drawChartWithData(data);
   });
 }
 
