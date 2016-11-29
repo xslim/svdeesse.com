@@ -31,11 +31,11 @@ function loadJSON(path, success, error) {
 }
 
 function loadData() {
-	var channelId = '189404';
-	var feedOpts = '?days=2&average=60&round=0';
-	loadJSON('https://api.thingspeak.com/channels/' + channelId + '/feed.json' + feedOpts, function(data) {
+  var channelId = '189404';
+  var feedOpts = '?days=2&average=60&round=0';
+  loadJSON('https://api.thingspeak.com/channels/' + channelId + '/feed.json' + feedOpts, function(data) {
     drawChart(data);
-	});
+  });
 }
 
 
@@ -48,20 +48,17 @@ function drawChartWithData(feedData) {
   data.addColumn('number', 'Humidity');
   
   for (var i = 0; i < feedData.feeds.length; i++) {
-  	var di = feedData.feeds[i];
+    var di = feedData.feeds[i];
     var dt = new Date(Date.parse(di.created_at));
-    console.log(dt);
-		data.addRow([
-	    dt, 
-    	parseInt(di.field3),
+    data.addRow([
+      dt, 
+      parseInt(di.field3),
       parseInt(di.field1),
       parseInt(di.field2)
      ]);
-	}
-  
-  //console.log(data);
-  
-	var options = {
+  };
+    
+  var options = {
   	series: {
       // Gives each series an axis name that matches the Y-axis below.
       0: {targetAxisIndex: 0, curveType: 'function'},
@@ -72,10 +69,10 @@ function drawChartWithData(feedData) {
 			title: 'Hours'
     },
     vAxes: {
-          // Adds titles to each axis.
-          0: {title: 'Temperature'},
-          1: {title: 'Humidity'}
-        },
+      // Adds titles to each axis.
+      0: {title: 'Temperature'},
+      1: {title: 'Humidity'}
+    },
 	};
 
   //var chart = new google.charts.Line(document.getElementById('chart_div'));
@@ -84,7 +81,7 @@ function drawChartWithData(feedData) {
 }
 
 function drawChart() {
-    loadData();
+  loadData();
 }
 				    
 <script>
