@@ -1,10 +1,7 @@
 ---
-published: true
-categories: ""
-tags: ""
 title: Aft locker hatch
+date: 2016-01-29 00:00:00 Z
 ---
-
 
 ![Aft locker hatch]({{site.baseurl}}/images/aft_hatch.png)
 

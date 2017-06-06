@@ -1,11 +1,9 @@
 ---
-published: true
-categories: ""
-tags: heating
 title: Heater type comparison
+date: 2015-11-25 00:00:00 Z
+tags:
+- heating
 ---
-
-
 
 For this boat I want to install a new heating option to be worm and cozy living on it in a nordic territories. Even Deesse is a 39ft boat, inside it is smaller then new 36ft boats. There will be 2 sleeping cabins, main cabin and a toilet/shower.
 

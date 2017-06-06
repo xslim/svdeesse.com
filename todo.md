@@ -1,10 +1,8 @@
 ---
-layout: page
 title: Todo
-permalink: /todo/
-published: true
+permalink: "/todo/"
+layout: page
 ---
-
 
 ## First priority
 - New plumbing

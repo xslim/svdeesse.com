@@ -1,59 +1,54 @@
-# Site settings
+---
 title: SV Déesse
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 email: info@svdeesse.com
 author: Taras Kalapun
-description:
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://svdeesse.com" # the base hostname & protocol for your site
-
+description: 
+baseurl: ''
+url: http://svdeesse.com
 google_analytics: UA-2087894-2
-
-# permalink: /posts/:title/
 relative_permalinks: false
-
-# gems:
-  # - jekyll-redirect-from #https://help.github.com/articles/redirects-on-github-pages
-  # - jekyll-mentions
-
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
 social:
   email: mailto:info@svdeesse.com
   rss: http://svdeesse.com/feed.xml
-
-
 prose:
-  siteurl: "http://svdeesse.com"
-  media: "images"
+  siteurl: http://svdeesse.com
+  media: images
   ignore:
-    - /_layouts
-    - /_includes
-    - /_sass
-    - /css
-    - /fonts
+  - "/_layouts"
+  - "/_includes"
+  - "/_sass"
+  - "/css"
+  - "/fonts"
   metadata:
     _posts:
-      - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: true
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
-      - name: "categories"
-        field:
-          element: "text"
-          label: "categories"
-      - name: "tags"
-        field:
-          element: "text"
-          label: "tags"
+    - name: published
+      field:
+        label: Published
+        element: checkbox
+        value: true
+    - name: title
+      field:
+        element: text
+        label: title
+    - name: categories
+      field:
+        element: text
+        label: categories
+    - name: tags
+      field:
+        element: text
+        label: tags
