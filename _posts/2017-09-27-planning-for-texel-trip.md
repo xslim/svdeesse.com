@@ -1,6 +1,5 @@
 ---
 title: Planning for Texel trip
-date: {}
 published: true
 ---
 ## Trip
@@ -112,5 +111,3 @@ Plan:
 15:40 +3:
 16:40 +4:
 ```
-
-
