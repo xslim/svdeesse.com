@@ -7,6 +7,11 @@ date: 2017-09-27 00:00:00 Z
 Amsterdam - Ijmuiden - Texel Oudeschield
 Distance: 55 nm
 
+```
+Amsterdam Marina -> Ijmuiden: 15nm - 3h
+Ijmuiden -> Den Helder: 30 nm - 6h
+Den Helder -> Oudeschield: 10nm - 2h
+```
 
 ![](https://maps.googleapis.com/maps/api/staticmap?size=400x200&scale=1&maptype=roadmap&format=png&visual_refresh=true&key=AIzaSyBr9E_UHi0pOjCf1kZXoV9I8yUUIEDKf9s&zoom=8&path=enc:_bz~Hify\ypAfsDkfBroYctDfaKiOhxHfBjwCpE`xAi@xqBgU|_DofpA{uR_}OgmRkdDinL_|FinLmP`xA}TyY)
 
@@ -66,10 +71,10 @@ Plan:
 20:36 -2: -0.3
 21:36 -1: slack
 22:36 HW: +1.0
-23:36 +1: 
-00:36 +2:
-01:36 +3:
-02:36 +4:
+23:36 +1: +1.0
+00:36 +2: +1.0
+01:36 +3: +0.7
+02:36 +4: +0.5
 ```
 
 ### 29-30.09.2017 HW Harlingen
@@ -94,22 +99,22 @@ Plan:
 
 ### 01.10.2017 HW Harlingen
 ```
-05:34 HW: + 0.7
-06:34 +1: 
-07:34 +2:
-08:34 +3:
-09:34 +4:
+05:34 HW: +0.7
+06:34 +1: +1.2
+07:34 +2: +1.8
+08:34 +3: +2.2
+09:34 +4: +1.5
 ```
 
 ### 01.10.2017 HW Hoek van Holland
 ```
-07:40 -4:
+07:40 -4: +1.0
 08:40 -3: +0.6
 09:40 -2: +0.3
 10:40 -1: slack
 12:40 HW: -1.0
-13:40 +1:
-14:40 +2:
-15:40 +3:
-16:40 +4:
+13:40 +1: -1.0
+14:40 +2: -1.0
+15:40 +3: -0.7
+16:40 +4: -0.5
 ```
