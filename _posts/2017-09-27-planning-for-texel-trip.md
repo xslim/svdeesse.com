@@ -1,7 +1,8 @@
 ---
-published: true
 title: Planning for Texel trip
+date: 2017-09-27 00:00:00 Z
 ---
+
 ## Trip
 Amsterdam - Ijmuiden - Texel Oudeschield
 Distance: 55 nm
