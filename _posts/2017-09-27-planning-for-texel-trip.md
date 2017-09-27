@@ -7,7 +7,7 @@ date: 2017-09-27 00:00:00 Z
 Amsterdam - Ijmuiden - Texel Oudeschield
 Distance: 55 nm
 
-![](https://maps.googleapis.com/maps/api/staticmap?scale=2&size=400x200&maptype=roadmap&format=png&visual_refresh=true&zoom=8&path=enc:_bz~Hify\ypAfsDkfBroYctDfaKiOhxHfBjwCpE`xAi@xqBgU|_DofpA{uR_}OgmRkdDinL_|FinLmP`xA}TyY)
+![](https://maps.googleapis.com/maps/api/staticmap?scale=2&size=400x200&maptype=roadmap&format=png&visual_refresh=true&key=AIzaSyBr9E_UHi0pOjCf1kZXoV9I8yUUIEDKf9s&zoom=8&path=enc:_bz~Hify\ypAfsDkfBroYctDfaKiOhxHfBjwCpE`xAi@xqBgU|_DofpA{uR_}OgmRkdDinL_|FinLmP`xA}TyY)
 
 [map.mrt.io](http://map.mrt.io/#center=52.81355,4.96307&zoom=9&path=enc:_bz~Hify\ypAfsDkfBroYctDfaKiOhxHfBjwCpE`xAi@xqBgU|_DofpA{uR_}OgmRkdDinL_|FinLmP`xA}TyY)
 
