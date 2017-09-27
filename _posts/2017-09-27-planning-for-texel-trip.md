@@ -1,8 +1,8 @@
 ---
 title: Planning for Texel trip
-date: 2017-09-27 00:00:00 Z
+date: {}
+published: true
 ---
-
 ## Trip
 Amsterdam - Ijmuiden - Texel Oudeschield
 Distance: 55 nm
@@ -51,19 +51,24 @@ Along the Dutch coast spring tide is two days after New Moon and two days after 
 
 ## Ijmuiden -> Texel
 
+Plan:
+```
+17:00 - exit from Amsterdam Marina
+20:00 - Ijmuiden
+02:00 - Den Helder
+04:00 - Oudeschield
+```
+
 ### 29.09.2017 HW Hoek van Holland
 ```
-17:00 - exit from Marina
-20:00 - Ijmuiden
-
 19:36 -3: -0.6
 20:36 -2: -0.3
 21:36 -1: slack
 22:36 HW: +1.0
 23:36 +1: 
-00:36 +2
-01:36 +3
-02:36 +4
+00:36 +2:
+01:36 +3:
+02:36 +4:
 ```
 
 ### 29-30.09.2017 HW Harlingen
@@ -78,6 +83,14 @@ Along the Dutch coast spring tide is two days after New Moon and two days after 
 
 ## Texel -> Ijmuiden
 
+Plan:
+```
+06:00 - exit from Oudeschield
+08:00 - Den Helder
+14:00 - Ijmuiden
+17:00 - Amsterdam Marina
+```
+
 ### 01.10.2017 HW Harlingen
 ```
 05:34 HW: + 0.7
@@ -89,5 +102,15 @@ Along the Dutch coast spring tide is two days after New Moon and two days after 
 
 ### 01.10.2017 HW Hoek van Holland
 ```
+07:40 -4:
+08:40 -3: +0.6
+09:40 -2: +0.3
+10:40 -1: slack
+12:40 HW: -1.0
+13:40 +1:
+14:40 +2:
+15:40 +3:
+16:40 +4:
 ```
+
 
