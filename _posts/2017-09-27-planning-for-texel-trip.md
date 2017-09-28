@@ -17,7 +17,37 @@ Den Helder -> Oudeschield: 10nm - 2h
 
 [map.mrt.io](http://map.mrt.io/#center=52.81355,4.96307&zoom=9&path=enc:_bz~Hify\ypAfsDkfBroYctDfaKiOhxHfBjwCpE`xAi@xqBgU|_DofpA{uR_}OgmRkdDinL_|FinLmP`xA}TyY)
 
+## Ports
 
+### Ijmuiden
+Marina Seaport VHF 74
+Sluis VHF 22, +31 255 564141
+Havendienst IJmuiden VHF 61 (radio reports)
+
+towards Texel: depart 1h before HW Hoek van Holland
+
+### Oudeschield
+Waddenhaven Texel VHF 31, +31 222 321227
+
+Take pontoon D or E
+
+from Den Helder: 1 to 4h after LW Den Helder
+```
+19:40 LW
+20:40 +1
+21:40 +2
+22:40 +3
+23:40 +4
+```
+
+towards Den Helder: 0 to 4h after HW Oudeschield
+```
+4:27 HW
+5:27 +1
+6:27 +2
+7:27 +3
+8:27 +4
+```
 
 ## Tide information
 
