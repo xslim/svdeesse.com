@@ -6,6 +6,9 @@ layout: page
 
 ![Deesse](/images/Deesse.jpg)
 
-### Layout
+### Information
 
-![Old Layout](/images/layout_old.svg)
+* Ship Name: Deesse
+* MMSI: 244180370
+* Call Sign: PI5808
+
